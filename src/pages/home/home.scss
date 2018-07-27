@@ -1,3 +1,133 @@
 page-home {
 
+    .main{
+        background-color: #75dfb9;
+        width: 100%;
+    }
+
+    .header{
+        background-color: #1d202b;
+        width: 100%;
+    }
+
+    .header h1{
+        color: white;
+        padding: 0.5em;
+        font-family: 'Bebas';
+        margin-left: 4.5em;
+    }
+
+    .content{
+        width: 95%;
+        margin-left: 0.5em;
+        color: #75dfb9;
+    }
+
+    .eventInfo{
+        background-color: #1d202b;
+        border: 3px solid #2F3341;
+        font-family: 'Avenir Next Condensed';
+    }
+
+    .eventInfo a{
+        padding-left: 0.75em;
+    }
+
+    .eventInfo h2{
+        padding: 0.25em 0.25em 0em 0.25em;
+        font-weight: bold;
+        font-size: 3em;
+    }
+
+    .eventInfo h3{
+        font-weight: bold;
+        font-size: 1.75em;
+        padding: 0em 0.35em 0em 0.35em;
+    }
+
+    .eventInfo p{
+        padding: 0em 0.5em 0.5em 0.5em;
+        color: #b8b8b8;
+    }
+
+    .rsvp{
+        border-top: 2px solid #b8b8b8;
+        color: #75dfb9;
+        background-color: #1d202b;
+        width: 100%;
+        font-size: 1.25em;
+        padding: 0.5em 0;
+    }
+
+    .buttons{
+        
+        list-style-type: none;
+    }
+
+    .leftButton{
+        background-color: #1d202b;
+        color: #75dfb9;
+        font-family: 'Avenir Next Condensed';
+        font-size: 1.25em;
+        padding: 0.5em;
+        float: left;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border: 1.25px solid #b8b8b8;
+    }
+
+    .midButton{
+        background-color: #1d202b;
+        color: #75dfb9;
+        font-family: 'Avenir Next Condensed';
+        font-size: 1.25em;
+        float: left;
+        padding: 0.5em;
+        border: 1.25px solid #b8b8b8;
+    }
+
+    .midButton2{
+        background-color: #1d202b;
+        color: #75dfb9;
+        font-family: 'Avenir Next Condensed';
+        font-size: 1.25em;
+        
+        padding: 0.5em;
+        border: 1.25px solid #b8b8b8;
+    }
+
+    .rightButton{
+        background-color: #1d202b;
+        color: #75dfb9;
+        font-family: 'Avenir Next Condensed';
+        font-size: 1.25em;
+        padding: 0.5em;
+        
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border: 1.25px solid #b8b8b8;
+    }
+
+    .leftButton:active{
+        background-color: #75dfb9;
+        color: #1d202b;
+    }
+
+    .midButton:active{
+        background-color: #75dfb9;
+        color: #1d202b;
+    }
+
+    .midButton2:active{
+        background-color: #75dfb9;
+        color: #1d202b;
+    }
+
+    .rightButton:active{
+        background-color: #75dfb9;
+        color: #1d202b;
+    }
+
+   
+
 }
